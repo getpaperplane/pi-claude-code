@@ -1,5 +1,12 @@
 # pi-claude-code
 
+> [!NOTE]
+> This is [Paperplane](https://github.com/getpaperplane/paperplane)'s fork of
+> [earendil-works/pi-claude-code](https://github.com/earendil-works/pi-claude-code).
+> It hands tool calls with unknown names to Pi, which answers "Tool X not found"
+> so the model can correct itself, instead of failing the turn. Install it with
+> `pi install https://github.com/getpaperplane/pi-claude-code`.
+
 This Pi extension lets you use your Claude Pro or Max subscription in Pi by
 routing all Claude model requests through the official Claude Code CLI.
 
